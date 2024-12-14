@@ -28,19 +28,13 @@ Follow these steps to run the project on Google Colab:
      !unzip -o /content/food-101.zip > /dev/null
      ```
 
-6. **Install Required Libraries**
-   - Ensure all dependencies are installed by running:
-     ```bash
-     !pip install tensorflow matplotlib pandas seaborn
-     ```
-
-7. **Run the Notebook**
+6. **Run the Notebook**
    - Execute each cell sequentially. The notebook handles:
      - Data preprocessing
      - Loading and fine-tuning the MobileNetV2 model
      - Training and saving the model
 
-8. **Model Checkpoints**
+7. **Model Checkpoints**
    - Trained model checkpoints are saved in the specified directory within Google Drive.
 
 ## Checkpoints Description
