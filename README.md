@@ -45,9 +45,10 @@ Follow these steps to run the project on Google Colab:
    - Trained model checkpoints are saved in the specified directory within Google Drive.
 
 ## Checkpoints Description
-   - **Checkpoint-1:** Model trained for 10 epochs with an initial learning rate of 0.001. Used as a baseline for further fine-tuning.
-   - **Checkpoint-2:** Model fine-tuned for 5 additional epochs with a reduced learning rate of 0.0001 for better accuracy.
-   - **Checkpoint-3:** Final model saved after training with early stopping and data augmentation, achieving optimal validation accuracy.
+   - **Checkpoint-1:** Model trained for 20 epochs with an initial learning rate of 0.001. Used as a baseline for further fine-tuning. (Mobilenet Freezed)
+   - **Checkpoint-2:** Model fine-tuned for 5 additional epochs with a reduced learning rate of 0.0001 for better accuracy. (Layers Freezed after the 100th layer)
+   - **Checkpoint-3:** Final model saved after training with early stopping and data augmentation, achieving optimal validation accuracy. (Lower Learning Rate)
+   - 
 
 ## Evaluate Results
    - Evaluation metrics such as confusion matrix and accuracy plots are generated in the notebook.
