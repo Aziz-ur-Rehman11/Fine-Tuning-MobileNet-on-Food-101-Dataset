@@ -1,7 +1,9 @@
 # Fine-Tuning MobileNet on Food-101 Dataset
 
 ## Overview
-This project fine-tunes the MobileNetV2 model pretrained on ImageNet to classify images from the Food-101 dataset. The entire workflow is implemented in Python using TensorFlow and can be executed on Google Colab.
+This project fine-tunes the MobileNetV2 model pretrained on ImageNet to classify images from the Food-101 dataset. The entire workflow is implemented in Python using TensorFlow and can be executed on Google Colab. (I have Uploaded Checkpoint Results (model and json(Dictionary as a reference))).
+
+Note: Will need to change the paths as per necessary for you running environment
 
 ## How to Run
 Follow these steps to run the project on Google Colab:
