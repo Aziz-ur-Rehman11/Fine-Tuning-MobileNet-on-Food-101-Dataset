@@ -6,11 +6,10 @@ This project fine-tunes the MobileNetV2 model pretrained on ImageNet to classify
 ## How to Run
 Follow these steps to run the project on Google Colab:
 
-1. **Clone or Download the Repository**
-   - Download the repository and upload the project files to your Google Drive.
-
-2. **Launch Google Colab**
+1. **Launch Google Colab**
    - Open [Google Colab](https://colab.research.google.com/).
+2. **Clone or Download the Repository**
+   - Download the repository and upload the project files to your Google Drive.
 
 3. **Upload the Notebook**
    - Upload the provided `.ipynb` notebook file to Colab.
